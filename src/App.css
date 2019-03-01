@@ -1,0 +1,198 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.ui.segment {
+  border: none;
+  box-shadow: 0 0;
+}
+/***** menu *****/
+.ui.inverted.menu {
+  background: #fff;
+  padding: 25px 0;
+}
+.ui.text.menu .item {
+  text-transform: uppercase;
+}
+.ui.inverted.menu .active.item {
+  color: green !important;
+}
+.ui.inverted.menu .item {
+  color: #000;
+}
+.ui.inverted.menu a.item:hover, .ui.inverted.menu .active.item:hover {
+  color: green !important;
+}
+
+/***** banner ****/
+h4.ui.header {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 100;
+}
+h1.ui.header {
+  font-size: 40px;
+  color: #fff;
+  margin: 40px;
+}
+.Btn-contact {
+  color: #fff;
+  font-size: 16px;
+}
+.Btn-contact:hover {
+  color: green;
+}
+.Banner {
+  background-image: url('./fondo.jpg');
+  padding: 150px 0;
+  color: #fff;
+}
+
+/***** gridcolumns *****/
+.ContainerGrid {
+   background: #d4d4d4;
+}
+.ui.icon.header {
+  padding: 30px;
+}
+.ui.icon.header .icon {
+  margin-bottom: 20px;
+}
+h2.ui.header .sub.header {
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+/**** infobanner ****/
+.InfoBanner {
+  background-image: url('./fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+  color: #fff;
+}
+.InfoBanner p {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.ui.green.button {
+  padding: 15px 70px;
+}
+
+/***** services *****/
+.ContainerService {
+ background: #d4d4d4;
+}
+.SectionServices {
+  padding: 50px 0 80px 0;
+  
+}
+.TittleServices {
+  text-align: left;
+  font-size: 36px;
+  font-weight: 700;
+}
+.TextServices {
+  font-size: 16px;
+  font-weight: 100;
+  text-align: left;
+}
+.BtnService {
+  text-align: left;
+  font-size: 16px;
+}
+.BtnService a {
+  color: green;
+}
+
+/***** features *****/
+.ContainerFeature {
+  padding: 60px 0;
+}
+.ContainerFeature p {
+  text-align: left;
+  margin-bottom: 50px;
+}
+.ui.left.aligned.header {
+  color: #000;
+  margin: 30px 0;
+}
+.ui.list {
+  text-align: left;
+}
+
+/***** clients *****/
+.ContainerClients {
+  padding: 40px 0;
+  background: #d4d4d4;
+}
+.ColumnClient {
+  text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/***** menufooter *****/
+.ContainerMenuFooter {
+  background: #558e46;
+  padding: 25px 0;
+}
+.ContainerMenuFooter .ui.list .list>a.item, .ui.list>a.item{
+  color: #fff;
+}
+.ContainerMenuFooter .ui.list .list>a.item, .ui.list>a.item:hover{
+  color: #000;
+}
+
+/***** footer *****/
+.ContainerFooter {
+  background: #2b2d2a;
+  padding: 40px;
+}
+.ContainerFooter .ui.list .list>a.item i.icon, .ui.list>a.item i.icon{
+  color: #fff;
+  font-size: 32px;
+}
+.ContainerFooter .ui.horizontal.list {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.Guaostudio {
+  color: #fff;
+}
+.Guaostudio:hover {
+  color: #000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
